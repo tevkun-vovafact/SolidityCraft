@@ -1,6 +1,18 @@
 pragma solidity ^0.8.0;
 
 contract SolidityCraft {
+
+    // Estimate fee based on operation code
+    function estimateFee(uint opCode) public pure returns (uint) {
+        if (opCode == 1) {
+            return 21000;
+        } else if (opCode == 2) {
+            return 50000;
+        } else {
+            return 100000;
+        }
+    }
+
     
     // Estimate gas consumption for a given operation
     function gasEstimate(uint256 opCode) public pure returns (uint256) {
