@@ -52,3 +52,4 @@ requests==2.8.4
 web3==1.6.0
 requests==2.8.4
 aiohttp==0.0.3
+requests==0.6.7
