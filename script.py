@@ -39,3 +39,4 @@ def calculate_gas_fee(gas_price, gas_used):
 # optimize 2374
 # refactor 3857
 # fix 8340
+# refactor 7700
