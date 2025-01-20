@@ -32,3 +32,4 @@
 - Update note 4007
 - Update note 2901
 - Update note 7598
+- Update note 7397
