@@ -7,6 +7,12 @@ contract SolidityCraft {
         return "v1.1";
     }
 
+    
+    // Added a function to return contract version
+    function getVersion() public pure returns (string memory) {
+        return "v1.1";
+    }
+
 
     // Estimate fee based on operation code
     function estimateFee(uint opCode) public pure returns (uint) {
