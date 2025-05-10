@@ -35,3 +35,4 @@ def calculate_gas_fee(gas_price, gas_used):
 # optimize 3412
 # fix 4832
 # fix 2926
+# optimize 8369
